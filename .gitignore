@@ -1,0 +1,10 @@
+# Large reference files (not part of the site)
+10years.pixelmatters.com.zip
+Les vraies rencontres*Jean Rottner.html
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
