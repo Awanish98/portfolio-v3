@@ -432,6 +432,11 @@ function scalePreviews() {
     const frame = $('iframe', p);
     if (frame) p.style.setProperty('--scale', (p.clientWidth / 1200).toFixed(4));
   });
+  const stage = $('.promo-stage');
+  if (stage) {
+    const frame = $('iframe', stage);
+    if (frame) stage.style.setProperty('--pscale', (stage.clientWidth / 1400).toFixed(4));
+  }
 }
 window.addEventListener('resize', () => { clearTimeout(window.__scaleT); window.__scaleT = setTimeout(scalePreviews, 120); });
 
