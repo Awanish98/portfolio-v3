@@ -18,11 +18,9 @@ const featured = [
     desc: 'AI-powered YouTube music player & web radio with 40+ mood stations, synced lyrics, Full HD video theater, WebRTC listening rooms and a shipped Android app.',
     tags: ['React', 'WebRTC', 'AI', 'Android'],
     url: 'https://aura-music-1no9.onrender.com',
-    // Render blocks framing (frame-ancestors 'self'), so preview uses the GitHub Pages deployment.
     preview: 'https://awanish98.github.io/Aura-Music/',
     extra: [
-      { label: 'GitHub', url: 'https://github.com/Awanish98/Aura-Music' },
-      { label: 'APK ↗', url: 'https://github.com/Awanish98/Aura-Music/releases/tag/v1.0.0-android' }
+      { label: 'GitHub', url: 'https://github.com/Awanish98/Aura-Music' }
     ]
   },
   {
@@ -76,17 +74,17 @@ const liveSites = [
 ];
 
 const githubProjects = [
-  { n: 14, name: 'Living Universe',        desc: 'An experimental build from the GitHub collection.' },
-  { n: 15, name: 'PREMIER',                desc: 'A project in the GitHub collection.' },
-  { n: 16, name: 'Birth of a Black Hole',  desc: 'A creative simulation-style experiment.' },
-  { n: 17, name: 'Ishq Radio',             desc: 'Radio streaming project — also featured in music & media.' },
-  { n: 18, name: 'Web Scraping',           desc: 'Scraping experiments and reusable collectors.' },
-  { n: 19, name: 'Spotify',                desc: 'Spotify-related tooling and experiments.' },
-  { n: 20, name: 'Python Projects',        desc: 'A collection of Python scripts and experiments.' },
-  { n: 21, name: 'Portfolio',              desc: 'An earlier iteration of the personal portfolio.' },
-  { n: 22, name: 'Portfolio Spline React', desc: 'React portfolio build with 3D / Spline visuals.' },
-  { n: 23, name: 'College Test',           desc: 'College-era project and practice work.' },
-  { n: 24, name: 'Vision — AI Learning & Knowledge Platform', desc: 'AI learning and knowledge platform.', link: 'https://github.com/Awanish98/Vision', tags: ['AI', 'GitHub'] }
+  { n: 14, name: 'Living Universe',        desc: 'An experimental build from the GitHub collection.', link: 'https://github.com/Awanish98/Living-Universe' },
+  { n: 15, name: 'PREMIER',                desc: 'A project in the GitHub collection.', link: 'https://github.com/Awanish98/Premier' },
+  { n: 16, name: 'Birth of a Black Hole',  desc: 'A creative simulation-style experiment.', link: 'https://github.com/Awanish98/birth-of-a-black-hole' },
+  { n: 17, name: 'Ishq Radio',             desc: 'Radio streaming project — also featured in music & media.', link: 'https://github.com/Awanish98/Ishq-Radio' },
+  { n: 18, name: 'Web Scraping',           desc: 'Scraping experiments and reusable collectors.', link: 'https://github.com/Awanish98/Web_Scraping' },
+  { n: 19, name: 'Spotify',                desc: 'Spotify-related tooling and experiments.', link: 'https://github.com/Awanish98/Spotify' },
+  { n: 20, name: 'Python Projects',        desc: 'A collection of Python scripts and experiments.', link: 'https://github.com/Awanish98/Python_projects' },
+  { n: 21, name: 'Portfolio',              desc: 'An earlier iteration of the personal portfolio.', link: 'https://github.com/Awanish98/Portfolio' },
+  { n: 22, name: 'Portfolio Spline React', desc: 'React portfolio build with 3D / Spline visuals.', link: 'https://github.com/Awanish98/Portfolio-spline-React' },
+  { n: 23, name: 'College Test',           desc: 'College-era project and practice work.', link: 'https://github.com/Awanish98/college_test' },
+  { n: 24, name: 'Vision — AI Learning & Knowledge Platform', desc: 'AI learning and knowledge platform.', tags: ['AI', 'GitHub'] }
 ];
 
 const pythonProjects = [
@@ -117,7 +115,7 @@ const aiProjects = [
 
 const mediaProjects = [
   { n: 45, name: 'ISHQ Radio — Live Radio Streaming', desc: 'Live radio streaming experience.', tags: ['Radio', 'Streaming'] },
-  { n: 46, name: 'Aura Music Backend — Render Deployment', desc: 'Backend and deployment for the Aura Music platform.', tags: ['Render', 'Backend'] },
+  { n: 46, name: 'Aura Music Backend', desc: 'Backend and API behind the Aura Music platform.', tags: ['Backend', 'API'] },
   { n: 47, name: 'Aura Music Android Application', desc: 'Android build of the Aura Music player.', tags: ['Android'] },
   { n: 48, name: 'Aura Music Web Player', desc: 'Browser music player with queue and playback controls.', tags: ['Web', 'Player'] },
   { n: 49, name: 'Aura Lyrics Visualizer', desc: 'Synced, animated lyric experience.', tags: ['Lyrics', 'Animation'] },
@@ -127,11 +125,11 @@ const mediaProjects = [
 ];
 
 const archiveGroups = [
-  { letter: 'A', title: 'Live websites & deployed applications', note: 'Public, deployed products — including the three featured builds and the ten business websites.', items: liveSites.map(i => ({ ...i, status: 'live' })) },
-  { letter: 'B', title: 'GitHub projects', note: 'Repository names are confirmed; individual URLs are still being verified, so links point to the GitHub profile unless a URL was provided.', items: githubProjects.map(i => ({ ...i, status: 'done', tags: i.tags || ['GitHub'] })) },
-  { letter: 'C', title: 'Python, automation & data collection', note: 'Scrapers, crawlers and workflow automation built with Python and browser tooling.', items: pythonProjects.map(i => ({ ...i, status: 'done' })) },
-  { letter: 'D', title: 'AI & browser automation', note: 'AI-assisted research, lead generation, local models and browser-driven collection systems.', items: aiProjects.map(i => ({ ...i, status: 'done' })) },
-  { letter: 'E', title: 'Music & media development', note: 'Streaming, players, lyrics and the component builds behind Aura Music.', items: mediaProjects.map(i => ({ ...i, status: 'done' })) }
+  { letter: 'A', title: 'Live websites & applications', note: 'Products and client websites that are live right now.', items: liveSites.map(i => ({ ...i, status: 'live' })) },
+  { letter: 'B', title: 'GitHub projects', note: 'A mix of experiments, builds and earlier iterations.', items: githubProjects.map(i => ({ ...i, status: 'done', tags: i.tags || ['GitHub'] })) },
+  { letter: 'C', title: 'Python, automation & data collection', note: 'Scrapers, collectors and workflow automation.', items: pythonProjects.map(i => ({ ...i, status: 'done' })) },
+  { letter: 'D', title: 'AI & browser automation', note: 'AI-assisted research, lead generation and local experiments.', items: aiProjects.map(i => ({ ...i, status: 'done' })) },
+  { letter: 'E', title: 'Music & media development', note: 'Streaming, players, lyrics and the builds behind Aura Music.', items: mediaProjects.map(i => ({ ...i, status: 'done' })) }
 ];
 
 const labProjects = [
@@ -262,8 +260,7 @@ function renderArchive() {
             <h4>${p.name}</h4>
             <p>${p.desc}</p>
             ${tagRow((p.tags || ['Project']).slice(0, 3))}
-            ${p.link ? `<a class="proj-link" href="${p.link}" target="_blank" rel="noopener">${p.link.includes('github') ? 'View on GitHub' : 'Visit project'} ↗</a>`
-                     : `<span class="proj-link" style="color:var(--dim)">${statusLabel(p.status)} · repo link pending</span>`}
+            ${p.link ? `<a class="proj-link" href="${p.link}" target="_blank" rel="noopener">${p.link.includes('github') ? 'View on GitHub' : 'Visit project'} ↗</a>` : ''}
           </article>`).join('')}
       </div>
     </div>`).join('');
